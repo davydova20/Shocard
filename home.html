@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Domine&display=swap" rel="stylesheet">
+	<meta  charset="utf-8">
+	<meta name="viewport" content="width=device-width initial-scale=1.0">
+	<title>Home</title>
+	<script src="js/glide.min.js" charset="utf-8"></script>
+	<link rel="stylesheet" type="text/css" href="css/homestyle.css">
+	 <link rel="stylesheet" href="css/style_button.css">
+		 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+		<link rel="stylesheet" type="text/css" href="css/base.css">
+		 <link rel="stylesheet" href="css/glide.core.min.css">
+		  <link rel="stylesheet" href="css/glide.theme.min.css">
+
+			<script src="js/new.js"></script>
+			<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script> <!--Menu-->
+
+
+</head>
+<body>
+
+	<header>
+	<div class = "container">
+	<a href="home.html" ><img src="css/photo/logo.png" height="77" alt="Логотип" class="header__logo" /></a>
+	<div class="menu">
+	<div class="icon-close">
+		<img src="css/photo/x.png" height="30">
+
+
+	</div>
+	 <nav>
+
+			<a href="Howitworks1.html" class="nav-link">How it works</a>
+			<a href="prices.html" class="nav-link">Prices</a>
+			<a href="" class="nav-link">Guidebook</a>
+			<a href="FAQ.html" class="nav-link">FAQ</a>
+				<a href="" class="nav-link bag">Basket</a>
+
+		</nav>
+</div>
+
+	<div class="icon-menu">
+		<img src="css/photo/Hamburger.png" height="40" ></div>
+	<a href="account.html" class=" btn">Log In</a>
+
+	</header>
+</div>
+<main>
+<article>
+<section>
+<div class ="wrapper">
+		<div class = "slider-area">
+
+
+			<div class = "card"><h2>Spend money on memorable emotions</h2></div>
+			<div class = "card1"><h2>Save time with the Shocard</h2></div>
+			<div class = "card2"><h2>Get the kick out tourist system</h2></div>
+
+</div>
+</div>
+</section>
+
+<section>
+	<div class ="slid2">
+<div class="images glide">
+		<div class="glide__track" data-glide-el="track">
+				<div class="glide__slides">
+						<div class="glide__slide"><img src ="css/photo/1.jpg"  alt = "1"><h2 class ="title">How does the Shocard work in big city Kharkiv?</h2></div>
+						<div class="glide__slide"><img src ="css/photo/1.jpg" alt = "1"></div>
+						<div class="glide__slide"><img src ="css/photo/1.jpg"  alt = "1"></div>
+						<div class="glide__slide"><img src ="css/photo/1.jpg"  alt = "1"></div>
+						<div class="glide__slide"><img src ="css/photo/1.jpg"  alt = "1"></div>
+
+
+</div>
+</div>
+
+<div class="glide__arrows" data-glide-el="controls">
+	<button class ="glide__arrow glide__arrow--left" data-glide-dir="<"><i class = "fas fa-arrow-left"></i></button>
+		<button class ="glide__arrow glide__arrow--right" data-glide-dir=">"><i class = "fas fa-arrow-right"></i></button>
+</div>
+</div>
+</div>
+</section>
+</article>
+
+
+
+
+
+
+</main>
+<footer>
+
+<div class = "name">Shocard</div>
+<div class = "info">
+<div class = "mail">Ukraine~Kharkiv</div>
+<div class = "mail">E-mail: shocard@gmail.com</div>
+<div class = "number">(050)042 4768</div>
+<div class = "number">(099)191 1067</div></div>
+
+	 <nav class = "nav">
+			<a href="Howitworks1.html" class="nav-link">How it works</a>
+			<a href="" class="nav-link">Prices</a>
+			<a href="" class="nav-link">Guidebook</a>
+			<a href="FAQ.html" class="nav-link">FAQ</a>
+		</nav>
+<div class ="social">
+<div><img src="css/photo/facebook-pink.png" width="50" height="50" alt="Логотип"/> </div>
+<div><img src="css/photo/instagram-pink.png" width="50" height="50" alt="Логотип"/></div>
+<div><img src="css/photo/youtube-pink.png" width="50" height="50" alt="Логотип"/> </div>
+<div><img src="css/photo/telegram-pink.png" width="50" height="50" alt="Логотип"/> </div></div>
+
+</footer>
+
+	<script>
+
+	new Glide(".images", {
+			type: 'carousel',
+			perView: 2,
+			focusAt: 'center',
+			rewind: true,
+breakpoints :{
+	 650: {
+		perView: 1
+}
+}
+	}).mount();
+
+ $(function(){
+	 $('.slider-area').bxSlider({
+		 mode:'fade',
+		 speed:4000,
+		 pause:6000,
+		  auto:true,
+		 pager: false,
+		 controls: false,
+		 touchEnabled: true
+
+	 });
+ });
+
+
+
+	  </script>
+		<script src="js/jquery.bxslider.js"></script>
+		<script src="js/jquery.bxslider.min.js"></script>
+
+
+</body>
+</html>
