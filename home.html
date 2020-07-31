@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+	<meta  charset="utf-8">
+	<meta name="viewport" content="width=device-width initial-scale=1.0">
+	<title>Home</title>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=Domine&display=swap" rel="stylesheet">
-	<meta  charset="utf-8">
-	<meta name="viewport" content="width=device-width initial-scale=1.0">
-	<title>Home</title>
+
 	<script src="js/glide.min.js" charset="utf-8"></script>
 	<link rel="stylesheet" type="text/css" href="css/homestyle.css">
 	 <link rel="stylesheet" href="css/style_button.css">
@@ -34,11 +35,11 @@
 	</div>
 	 <nav>
 
-			<a href="Howitworks1.html" class="nav-link">How it works</a>
+			<a href="howitworks.html" class="nav-link">How it works</a>
 			<a href="prices.html" class="nav-link">Prices</a>
-			<a href="" class="nav-link">Guidebook</a>
+			<a href="Guidebook.html" class="nav-link">Guidebook</a>
 			<a href="FAQ.html" class="nav-link">FAQ</a>
-				<a href="" class="nav-link bag">Basket</a>
+			<a href="basket.html" class="nav-link bag">Basket</a>
 
 		</nav>
 </div>
@@ -69,11 +70,13 @@
 <div class="images glide">
 		<div class="glide__track" data-glide-el="track">
 				<div class="glide__slides">
-						<div class="glide__slide"><img src ="css/photo/1.jpg"  alt = "1"><h2 class ="title">How does the Shocard work in big city Kharkiv?</h2></div>
-						<div class="glide__slide"><img src ="css/photo/1.jpg" alt = "1"></div>
-						<div class="glide__slide"><img src ="css/photo/1.jpg"  alt = "1"></div>
-						<div class="glide__slide"><img src ="css/photo/1.jpg"  alt = "1"></div>
-						<div class="glide__slide"><img src ="css/photo/1.jpg"  alt = "1"></div>
+						<a href="attractions.html" class="glide__slide"><div><img src ="css/photo/1.jpg"  alt = "1"><h2 class ="title">How does the Shocard work in big city Kharkiv?</h2></div></a>
+							<a href="attractions.html" class="glide__slide"><div><img src ="css/photo/1.jpg" alt = "1"></div></a>
+							<a href="attractions.html" class="glide__slide"><div><img src ="css/photo/1.jpg" alt = "1"></div></a>
+							<a href="attractions.html" class="glide__slide"><div><img src ="css/photo/1.jpg" alt = "1"></div></a>
+							<a href="attractions.html" class="glide__slide"><div><img src ="css/photo/1.jpg" alt = "1"></div></a>
+							<a href="attractions.html" class="glide__slide"><div><img src ="css/photo/1.jpg" alt = "1"></div></a>
+
 
 
 </div>
@@ -85,7 +88,11 @@
 </div>
 </div>
 </div>
+
+
 </section>
+
+
 </article>
 
 
@@ -96,7 +103,7 @@
 </main>
 <footer>
 
-<div class = "name">Shocard</div>
+<div class = "title__logo">Shocard</div>
 <div class = "info">
 <div class = "mail">Ukraine~Kharkiv</div>
 <div class = "mail">E-mail: shocard@gmail.com</div>
@@ -104,10 +111,11 @@
 <div class = "number">(099)191 1067</div></div>
 
 	 <nav class = "nav">
-			<a href="Howitworks1.html" class="nav-link">How it works</a>
-			<a href="" class="nav-link">Prices</a>
-			<a href="" class="nav-link">Guidebook</a>
+			<a href="howitworks.html" class="nav-link">How it works</a>
+			<a href="prices.html" class="nav-link">Prices</a>
+			<a href="Guidebook.html" class="nav-link">Guidebook</a>
 			<a href="FAQ.html" class="nav-link">FAQ</a>
+			<a href="basket.html" class="nav-link">Basket</a>
 		</nav>
 <div class ="social">
 <div><img src="css/photo/facebook-pink.png" width="50" height="50" alt="Логотип"/> </div>
@@ -130,6 +138,7 @@ breakpoints :{
 }
 }
 	}).mount();
+
 
  $(function(){
 	 $('.slider-area').bxSlider({
