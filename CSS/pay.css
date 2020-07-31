@@ -1,0 +1,43 @@
+section{
+  height: 65vh;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.pay{
+  display: flex;
+  flex-direction: column;
+}
+
+.pay p{
+  font-size: 28px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+a{
+  color: #2c3e42;
+}
+.return{
+  transform: translate(0, 10%);
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  line-height:31px;
+  font-size: 12px;
+
+
+margin-left: 20px;
+  color: #2c3e42;
+  background:  #be9a9a;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  transition: .5s;
+  border: 4px solid #2c3e42;
+  border-radius: 60px;
+  box-shadow: 10px 5px 10px #5f746f;
+  overflow: hidden;
+}

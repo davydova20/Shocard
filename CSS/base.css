@@ -8,7 +8,8 @@ html, body * { box-sizing: border-box; font-family: 'Domine', serif;
 }
 
 
-body{background: #2c3e42;}
+body  {background: #2c3e42 ; 
+overflow-x: hidden;}
 
  header {
 position: relative;
@@ -77,7 +78,7 @@ position: absolute;
 .social{
 	display: flex;
 }
-.name{
+.title__logo{
 	font-size: 40px;
 
 }
@@ -207,7 +208,7 @@ footer{
   .nav{
   	display:none;
   }
-  .name{
+  .title__logo{
   	display:none;
 
   }
@@ -347,7 +348,7 @@ footer{
 .nav{
 	display:none;
 }
-.name{
+.title__logo{
 	display:none;
 
 }
